@@ -1,13 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
 
 import Waves from "./Waves";
 
-class App extends Component {
-  render() {
-    return <Waves />;
-  }
-}
+const App = () => <Waves />;
 
 export default App;
