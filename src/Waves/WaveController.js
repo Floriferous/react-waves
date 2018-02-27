@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, PureComponent } from "react";
 import PropTypes from "prop-types";
 
 import Wave from "./Wave";

@@ -26,8 +26,8 @@ class Wave extends Component {
               y2="100%"
               spreadMethod="pad"
             >
-              <stop offset="20%" stopColor={color1} />
-              <stop offset="80%" stopColor={color2} />
+              <stop offset="0%" stopColor={color1} />
+              <stop offset="100%" stopColor={color2} />
             </linearGradient>
           </defs>
           <path

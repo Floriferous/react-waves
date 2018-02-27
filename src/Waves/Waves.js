@@ -8,7 +8,7 @@ const getValueInRange = (min, max) => Math.random() * (max - min) + min;
 const waves = [
   {
     color1: "rgb(29,88,245)",
-    color2: "rgb(0, 10, 255)",
+    color2: "rgb(0, 20, 50)",
     gradient: true
   },
   // { color: "rgba(0, 85,255, 0.9)" },
@@ -45,10 +45,6 @@ class Waves extends Component {
       windowWidth: window.innerWidth
     });
   };
-
-  shouldComponentUpdate(nextProps, nextState) {
-    return false;
-  }
 
   render() {
     const { windowWidth } = this.state;
